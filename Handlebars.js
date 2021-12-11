@@ -1,3 +1,21 @@
+{{#*inline "test"}}
+    {{~#scope~}}
+        {{~#set "XXX" null}}{{/set~}}
+        {{~#if modeKanji~}}
+            ...
+        {{~else if (op "||" group merge)~}}
+            <ol>{{~#each definition.definitions~}}
+                {{~#if (op "===" null (get "XXX"))~}}
+{{~#set "XXX" dictionary~}}{{~/set~}}
+                {{~/if~}}
+                {{~#if (op "===" dictionary (get "XXX"))~}}
+<li>{{> glossary-single brief=true compactGlossaries=../compactGlossaries noDictionaryTag=true data=../.}}</li>{{~/if~}}{{~/each~}}</ol>
+        {{~else~}}
+            {{~> glossary-single definition brief=brief compactGlossaries=compactGlossaries noDictionaryTag=true data=.~}}
+        {{~/if~}}
+    {{/scope}}
+{{/inline}}
+
 {{#*inline "glossary-single"}}
     {{~#unless brief~}}
         {{~#scope~}}
@@ -15,7 +33,7 @@
                     {{dictionary}}
                     {{~#set "any" true}}{{/set~}}
                 {{~/if~}}
-           {{~/unless~}}
+            {{~/unless~}}
             {{~#if (get "any")}})</i> {{/if~}}
         {{~/scope~}}
         {{~#if only~}}({{#each only}}{{.}}{{#unless @last}}, {{/unless}}{{/each}} only) {{/if~}}
@@ -23,9 +41,9 @@
     {{~#if (op "<=" glossary.length 1)~}}
         {{#each glossary}}{{#formatGlossary ../dictionary}}{{{.}}}{{/formatGlossary}}{{/each}}
     {{~else if @root.compactGlossaries~}}
-        {{#each glossary}}{{#formatGlossary ../dictionary}}{{{.}}}{{/formatGlossary}}{{#unless @last}} | {{/unless}}{{/each}}
+        {{#each glossary}}{{#formatGlossary ../dictionary}}{{{.}}}{{/formatGlossary}}{{#unless @last}}, {{/unless}}{{/each}}
     {{~else~}}
-        {{#each glossary}}{{#formatGlossary ../dictionary}}{{{.}}}{{/formatGlossary}}{{#unless @last}}｜{{/unless}}{{/each}}
+        {{#each glossary}}{{#formatGlossary ../dictionary}}{{{.}}}{{/formatGlossary}}{{#unless @last}}, {{/unless}}{{/each}}
     {{~/if~}}
     {{~#set "previousDictionary" dictionary~}}{{~/set~}}
 {{/inline}}
@@ -123,24 +141,6 @@
 
 {{#*inline "glossary-brief"}}
     {{~> glossary brief=true ~}}
-{{/inline}}
-
-{{#*inline "julian"}}
-    {{~#scope~}}
-        {{~#set "XXX" null}}{{/set~}}
-        {{~#if modeKanji~}}
-            ...
-        {{~else if (op "||" group merge)~}}
-            <ol>{{~#each definition.definitions~}}
-                {{~#if (op "===" null (get "XXX"))~}}
-{{~#set "XXX" dictionary~}}{{~/set~}}
-                {{~/if~}}
-                {{~#if (op "===" dictionary (get "XXX"))~}}
-<li>{{> glossary-single brief=true compactGlossaries=../compactGlossaries noDictionaryTag=true data=../.}}</li>{{~/if~}}{{~/each~}}</ol>
-        {{~else~}}
-            {{~> glossary-single definition brief=brief compactGlossaries=compactGlossaries noDictionaryTag=true data=.~}}
-        {{~/if~}}
-    {{/scope}}
 {{/inline}}
 
 {{#*inline "kunyomi"}}
