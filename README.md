@@ -12,6 +12,10 @@
 <img width="500" mheight="500" src="https://github.com/nagi12147/yomichan-rice/blob/main/After-2.png">
 <img width="500" mheight="500" src="https://github.com/nagi12147/yomichan-rice/blob/main/After-3.png">
 
+# Installation
+1. Go to Yomichan Settings > Appearance > Configure custom CSS... > Copy and Paste my [Popup.css](https://github.com/nagi12147/yomichan-rice/blob/main/Popup.css) to Popup CSS
+2. Follow my appearance settings
+
 # Resources
 * [stegatxins0 Mining Setup](https://rentry.co/mining) (Yomichan setup)
 * [AnimeCards](https://animecards.site/ankisetup/) (Anki and the handlebars)
