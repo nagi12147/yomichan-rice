@@ -1,6 +1,6 @@
 # Yomichan Rice + JMdict Fix
 * Minimal Color
-* Fix [JMdict](https://foosoft.net/projects/yomichan/#dictionaries) format to be readable in yomichan and for making anki cards
+* Fix [JMdict](https://foosoft.net/projects/yomichan/#dictionaries) format to be readable in yomichan and anki card
 
 ## BEFORE
 <img width="500" mheight="500" src="https://github.com/nagi12147/yomichan-rice/blob/main/Screenshot/Before-1.png">
