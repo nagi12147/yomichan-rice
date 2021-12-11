@@ -1,4 +1,4 @@
-# Yomichan Ricing + JMdict Fix
+# Yomichan Rice + JMdict Fix
 * Minimal Color
 * Fix [JMdict](https://foosoft.net/projects/yomichan/#dictionaries) format to be readable in yomichan and for making anki cards
 
