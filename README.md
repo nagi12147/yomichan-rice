@@ -40,7 +40,7 @@ Rather than using `{glossary}` to export all definition into Anki, the purpose o
 
 ## Resources
 * [stegatxins0#7346 Mining Setup](https://rentry.co/mining) (Yomichan setup)
-* [AnimeCards](https://animecards.site/ankisetup/) (Anki and the handlebars)
-* [TheMoeWay/Yomichan Custom CSS](http://learnjapanese.moe/yomicss/) (To learn the yomichan rice)
+* [AnimeCards](https://animecards.site/ankisetup/) (Anki and the handlebars setup)
+* [TheMoeWay/Yomichan Custom CSS](http://learnjapanese.moe/yomicss/) (How to custom yomichan css)
 * [FooSoft/yomichan/display.css](https://github.com/FooSoft/yomichan/blob/master/ext/css/display.css) (To check the css)
 * [Garic#9392 Custom Yomichan Color](https://docs.google.com/document/d/1zVeG8sLhPj7rLKj4f0gqGr_FtHXVPpBgg4LwCPkKUTk/edit?usp=sharing)
