@@ -1,1 +1,1 @@
-# yomichan-anki
+# Yomichan Ricing + JMdict Fix
