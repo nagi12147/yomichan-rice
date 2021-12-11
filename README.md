@@ -13,6 +13,7 @@
 <img width="500" mheight="500" src="https://github.com/nagi12147/yomichan-rice/blob/main/After-3.png">
 
 # Resources
-* [stegatxins0 Mining Setup](https://rentry.co/mining) (Most of my yomichan setup from there)
-* [AnimeCards](https://animecards.site/) 
-* [TheMoeWay](https://leanjapanese.moe)
+* [stegatxins0 Mining Setup](https://rentry.co/mining) (Yomichan setup)
+* [AnimeCards](https://animecards.site/ankisetup/) (Anki and the handlebars)
+* [TheMoeWay/Yomichan Custom CSS](http://learnjapanese.moe/yomicss/) (To learn the yomichan rice)
+* [FooSoft/yomichan/display.css](https://github.com/FooSoft/yomichan/blob/master/ext/css/display.css) (To check the code change)
