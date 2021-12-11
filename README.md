@@ -1,7 +1,11 @@
 # Yomichan Ricing + JMdict Fix
 
-## Before
+## BEFORE
 !![Alt text](https://github.com/nagi12147/yomichan-rice/blob/main/Before-1.png)
+!![Alt text](https://github.com/nagi12147/yomichan-rice/blob/main/Before-2.png)
+!![Alt text](https://github.com/nagi12147/yomichan-rice/blob/main/Before-3.png)
 
-## Before
+## AFTER
 !![Alt text](https://github.com/nagi12147/yomichan-rice/blob/main/After-1.png)
+!![Alt text](https://github.com/nagi12147/yomichan-rice/blob/main/After-2.png)
+!![Alt text](https://github.com/nagi12147/yomichan-rice/blob/main/After-3.png)
