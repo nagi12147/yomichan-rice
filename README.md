@@ -43,4 +43,4 @@ Rather than using `{glossary}` to export all definition into Anki, the purpose o
 * [AnimeCards](https://animecards.site/ankisetup/) (Anki and the handlebars)
 * [TheMoeWay/Yomichan Custom CSS](http://learnjapanese.moe/yomicss/) (To learn the yomichan rice)
 * [FooSoft/yomichan/display.css](https://github.com/FooSoft/yomichan/blob/master/ext/css/display.css) (To check the css)
-* [Garic#9392 Custom Yomichan Color] (https://docs.google.com/document/d/1zVeG8sLhPj7rLKj4f0gqGr_FtHXVPpBgg4LwCPkKUTk/edit?usp=sharing)
+* [Garic#9392 Custom Yomichan Color](https://docs.google.com/document/d/1zVeG8sLhPj7rLKj4f0gqGr_FtHXVPpBgg4LwCPkKUTk/edit?usp=sharing)
