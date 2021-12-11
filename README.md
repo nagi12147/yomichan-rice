@@ -1,7 +1,7 @@
 # Yomichan Ricing + JMdict Fix
 
 ## BEFORE
-<img style="width: auto; height: auto; max-width: 300px; max-height: 300px;"> https://github.com/nagi12147/yomichan-rice/blob/main/Before-1.png </img>
+<img style="width: auto; height: auto; max-width: 300px; max-height: 300px;" src="https://github.com/nagi12147/yomichan-rice/blob/main/Before-1.png">
 !![Alt text](https://github.com/nagi12147/yomichan-rice/blob/main/Before-2.png)
 !![Alt text](https://github.com/nagi12147/yomichan-rice/blob/main/Before-3.png)
 
