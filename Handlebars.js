@@ -228,7 +228,6 @@
         {{~/each~}}
         {{~#if (op ">" pitchCount 1)~}}</ol>{{~/if~}}
     {{~else~}}
-        No pitch accent data
     {{~/if~}}
 {{/inline}}
 
