@@ -13,17 +13,17 @@
 <img width="500" mheight="500" src="https://github.com/nagi12147/yomichan-rice/blob/main/Screenshot/After-3.png">
 
 ## Installation
-1. Go to Yomichan Settings > **Appearance** > **Configure custom CSS…** > Copy and Paste the **[Popup.css](https://github.com/nagi12147/yomichan-rice/blob/main/Popup.css)** to Popup CSS
+1. Go to Yomichan Settings > **Appearance** > **Configure custom CSS…** > Copy and Paste the **[Popup.css](https://github.com/nagi12147/yomichan-rice/blob/main/Popup.css)** content to Popup CSS
 2. Turn off **Compact glossaries**, *(optionally)* You could follow the settings below to match my rice
 
 <img width="500" mheight="500" src="https://github.com/nagi12147/yomichan-rice/blob/main/Screenshot/settings.png">
 
-1. Scroll down to **Anki** > **Configure Anki card templates…** > Copy and Paste the **[Handlebars.js](https://github.com/nagi12147/yomichan-rice/blob/main/Handlebars.js)** to Anki Card Templates
+1. Scroll down to **Anki** > **Configure Anki card templates…** > Copy and Paste the **[Handlebars.js](https://github.com/nagi12147/yomichan-rice/blob/main/Handlebars.js)** content to Anki Card Templates
 2. Open **Configure Anki card format…** > use `{test}` as your JMdict/English Definition for anki cards. *Make sure you ordered JMdict as your first dictionary*
 
 <img width="500" mheight="500" src="https://github.com/nagi12147/yomichan-rice/blob/main/Screenshot/ankicards.png">
 
-3. Open your Anki > ```CTRL+SHIFT+N``` or **Tools-Manage Note Types** > Select your prefered Note type > **Cards** > **Styling** > Add this following code to your Styling:
+3. Open your Anki > `CTRL+SHIFT+N` or **Tools-Manage Note Types** > Select your prefered Note type > **Cards** > **Styling** > Add this following code to your Styling:
 
 ```css
 /* Yomichan Definition Fix */
