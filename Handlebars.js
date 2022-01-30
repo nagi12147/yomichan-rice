@@ -240,7 +240,7 @@
 {{/inline}}
 
 {{#*inline "pitch-accent-positions"}}
-    {{~> pitch-accent-list format='position'~}}
+    {{#regexReplace "<(.|\n)*?>" ""}}{{~> pitch-accent-list format='position'~}}{{/regexReplace}}
 {{/inline}}
 {{! End Pitch Accents }}
 
