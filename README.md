@@ -34,7 +34,7 @@ ol {
 }
 ```
 ## Other
-Difference between the default yomichan handlebars and this **[here](https://www.diffchecker.com/RFGbVBTx)**.
+Difference between the default yomichan handlebars and this **[here](https://www.diffchecker.com/BUc3h7Yv)**.
 
 Rather than using `{glossary}` to export all definition into Anki, the purpose of `{test}` was only for the first ordered dictionary and not the others.
 
