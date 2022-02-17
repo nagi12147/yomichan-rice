@@ -22,11 +22,11 @@
 
 body {
     font-size: 18px;
-    font-family: Roboto, BIZ UDGothic;
+    font-family: Noto Sans CJK JP Thin;
 }
 
-.source-ext {
-    font-family: UD Digi Kyokasho NK-R;
+.source-text {
+    font-family: Noto Sans CJK JP Medium;
 }
 
 .gloss-list {
@@ -50,7 +50,7 @@ body {
 }
 
 .definition-list {
-  list-style-type: square;
+  list-style-type: circle;
 }
 
 .pronunciation-list:not([data-has-tags=true]) {
