@@ -1,0 +1,126 @@
+:root[data-theme="dark"] {
+    --compact-list-separator: ', ';
+    --compact-pronunciation: '・';
+
+    /* Color */
+    --text-color: #ebdbb2;
+    --reason-text-color: #427b58;
+    --background-color: #282828;
+    --tag-text-color: #282828;
+    --pronunciation-annotation-color: #fb4934;
+
+    --headword-text-color: #fbf1c7;
+    --headword-text-color-popular: #fbf1c7;
+    --headword-text-color-rare: #fbf1c7;
+    --headword-kanji-text-color: #fbf1c7;
+    --headword-kanji-text-color-popular: #fbf1c7;
+    --headword-kanji-text-color-rare: #fbf1c7;
+    --headword-furigana-text-color: #7c6f64;
+    --headword-furigana-text-color-popular: #7c6f64;
+    --headword-furigana-text-color-rare: #7c6f64;
+    --headword-kanji-border-color: transparent;
+    --headword-kanji-border-color-popular: transparent;
+    --headword-kanji-border-color-rare: transparent;
+
+    --tag-popular-background-color: #8ec07c;
+    --tag-frequent-background-color: #8ec07c;
+    --tag-frequency-background-color: #8ec07c;
+
+    --tag-expression-background-color: #665c54;
+    --tag-part-of-speech-background-color: #665c54;
+    --tag-default-background-color: #665c54;
+    --tag-archaism-background-color: #665c54;
+    --tag-part-of-speech-background-color: #665c54;
+
+    --tag-pronunciation-dictionary-background-color: #a89984;
+    --tag-dictionary-background-color: #a89984;
+    --tag-name-background-color: #a89984;
+
+    --light-border-color: #3c3836;
+    --input-background-color: #353535;
+    --notification-text-color: #3c3836;
+    --notification-background-color: #fbf1c7;
+    --progress-bar-track-color: #af3a03;
+    --progress-bar-indicator-color: #d65d0e;
+
+    /*
+    --sidebar-background-color: red;
+    --sidebar-button-background-color: transparent;
+    --sidebar-button-background-color-hover: red;
+    --sidebar-button-background-color-active: red;
+    --sidebar-button-danger-background-color: transparent;
+    --sidebar-button-danger-background-color-hover: red;
+    --sidebar-button-danger-background-color-active: red;
+    --sidebar-button-icon-color: red;
+    --sidebar-button-disabled-icon-color: red;
+    --sidebar-button-danger-icon-color: red;
+    --tag-search-background-color: #88C0D0;
+    --tag-pitch-accent-dictionary-background-color: #5E81AC;
+    --tag-border-color: red;
+    --accent-color: red;
+    --pitch-accent-annotation-color: red;
+    --headword-reading-text-color: blue;
+    --headword-reading-text-color-popular: blue;
+    --headword-reading-text-color-rare: blue;
+    */
+}
+
+body {
+    font-size: 18px;
+    font-family: /*"M PLUS 1 Code",*/ sans-serif, "Noto Sans CJK JP", "Yu Gothic UI";
+}
+
+.source-text {
+    font-family: /*"M PLUS 1 Code",*/ sans-serif, "Noto Sans CJK JP", "Yu Gothic UI";
+}
+
+.gloss-list {
+    display: inline;
+    padding: 0;
+    list-style-type: none;
+}
+.gloss-separator {
+    display: inline;
+}
+.gloss-content {
+    display: inline;
+}
+.gloss-item {
+    display: inline;
+}
+.gloss-item:not(:first-child)::before {
+    content: var(--compact-list-separator);
+    display: inline;
+    color: var(--text-color-light3);
+}
+
+.definition-list {
+  list-style-type: circle;
+}
+
+.pronunciation-list:not([data-has-tags=true]) {
+    display: inline;
+    list-style: none;
+    padding-left: 0;
+}
+.pronunciation-list:not([data-has-tags=true]) .pronunciation {
+    display: inline;
+}
+.pronunciation-list:not([data-has-tags=true]) .pronunciation:not(:first-child)::before {
+    white-space: pre-wrap;
+    content: var(--compact-pronunciation);
+    display: inline;
+    color: var(--text-color-light3);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.gloss-image-description {
+    display: none;
+}
+
+.gloss-image-container {
+    max-height: 200px;
+}

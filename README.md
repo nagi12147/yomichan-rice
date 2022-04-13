@@ -1,29 +1,28 @@
-# Yomichan Rice + JMdict Fix
-* Minimal Color
-* Fix [JMdict](https://foosoft.net/projects/yomichan/#dictionaries) format to be readable in yomichan and anki card
+# Yomichan Rice
+* Gruvbox color scheme
+* Dictionary format fix for [JMdict](https://foosoft.net/projects/yomichan/#dictionaries) to be readable in yomichan and anki card
 
-## BEFORE
-<img width="500" mheight="500" src="https://github.com/nagi12147/yomichan-rice/blob/main/Screenshot/Before-1.png">
-<img width="500" mheight="500" src="https://github.com/nagi12147/yomichan-rice/blob/main/Screenshot/Before-2.png">
-<img width="500" mheight="500" src="https://github.com/nagi12147/yomichan-rice/blob/main/Screenshot/Before-3.png">
+### BEFORE
+<img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/before1.png">
+<img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/before2.png">
 
-## AFTER
-<img width="500" mheight="500" src="https://github.com/nagi12147/yomichan-rice/blob/main/Screenshot/After-1.png">
-<img width="500" mheight="500" src="https://github.com/nagi12147/yomichan-rice/blob/main/Screenshot/After-2.png">
-<img width="500" mheight="500" src="https://github.com/nagi12147/yomichan-rice/blob/main/Screenshot/After-3.png">
+### AFTER
+<img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/after1.png">
+<img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/after2.png">
+
+### Anki Before & After
+<img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/before3.png">
+<img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/after3.png">
 
 ## Installation
 1. Go to Yomichan Settings > **Appearance** > **Configure custom CSS…** > Copy and Paste the **[Popup.css](https://github.com/nagi12147/yomichan-rice/blob/main/Popup.css)** content to Popup CSS
-2. Turn off **Compact glossaries**, *(optionally)* You could follow the settings below to match my rice
+2. Turn off **Compact glossaries**
+3. Scroll down to **Anki** > **Configure Anki card templates…** > Copy and Paste the **[Handlebars.js](https://github.com/nagi12147/yomichan-rice/blob/main/Handlebars.js)** content to Anki Card Templates
+4. Open **Configure Anki card format…** > use `{test}` as your JMdict/English Definition for anki cards. *Make sure you ordered JMdict as your first dictionary*
 
-<img width="500" mheight="500" src="https://github.com/nagi12147/yomichan-rice/blob/main/Screenshot/settings.png">
+<img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/ankicards.png">
 
-1. Scroll down to **Anki** > **Configure Anki card templates…** > Copy and Paste the **[Handlebars.js](https://github.com/nagi12147/yomichan-rice/blob/main/Handlebars.js)** content to Anki Card Templates
-2. Open **Configure Anki card format…** > use `{test}` as your JMdict/English Definition for anki cards. *Make sure you ordered JMdict as your first dictionary*
-
-<img width="500" mheight="500" src="https://github.com/nagi12147/yomichan-rice/blob/main/Screenshot/ankicards.png">
-
-3. Open your Anki > `CTRL+SHIFT+N` or **Tools-Manage Note Types** > Select your prefered Note type > **Cards** > **Styling** > Add this following code to your Styling:
+5. Open your Anki > `CTRL+SHIFT+N` or **Tools-Manage Note Types** > Select your prefered Note type > **Cards** > **Styling** > Add this following code to your Styling:
 
 ```css
 /* Yomichan Definition Fix */
@@ -33,10 +32,9 @@ ol {
 	list-style-position: inside;
 }
 ```
+
 ## Other
 Difference between the default yomichan handlebars and this **[here](https://www.diffchecker.com/BUc3h7Yv)**.
-
-Rather than using `{glossary}` to export all definition into Anki, the purpose of `{test}` was only for the first ordered dictionary and not the others.
 
 ## Resources
 * [stegatxins0#7346 Mining Setup](https://rentry.co/mining) (Yomichan setup)
