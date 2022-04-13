@@ -12,9 +12,9 @@
 <img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/before3.png"><img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/after3.png">
 
 ## Installation
-1. Go to Yomichan Settings > **Appearance** > **Configure custom CSS…** > Copy and Paste the **[Popup.css](https://github.com/nagi12147/yomichan-rice/blob/main/Popup.css)** content to Popup CSS
+1. Go to Yomichan Settings > **Appearance** > **Configure custom CSS…** > Copy and Paste the **[popup.css](https://github.com/nagi12147/yomichan-rice/blob/main/popup.css)** content to Popup CSS
 2. Turn off **Compact glossaries**
-3. Scroll down to **Anki** > **Configure Anki card templates…** > Copy and Paste the **[Handlebars.js](https://github.com/nagi12147/yomichan-rice/blob/main/Handlebars.js)** content to Anki Card Templates
+3. Scroll down to **Anki** > **Configure Anki card templates…** > Copy and Paste the **[handlebars.js](https://github.com/nagi12147/yomichan-rice/blob/main/handlebars.js)** content to Anki Card Templates
 4. Open **Configure Anki card format…** > use `{test}` as your JMdict/English Definition for anki cards. *Make sure you ordered JMdict as your first dictionary*
 
 <img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/ankicards.png">
