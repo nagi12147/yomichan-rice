@@ -3,8 +3,7 @@
 * Dictionary format fix for [JMdict](https://foosoft.net/projects/yomichan/#dictionaries) to be readable in yomichan and anki card
 
 ### BEFORE
-<img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/before1.png">
-<img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/before2.png">
+<img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/before1.png"><img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/before2.png">
 
 ### AFTER
 <img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/after1.png">
