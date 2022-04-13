@@ -6,12 +6,10 @@
 <img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/before1.png"><img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/before2.png">
 
 ### AFTER
-<img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/after1.png">
-<img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/after2.png">
+<img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/after1.png"><img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/after2.png">
 
 ### Anki Before & After
-<img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/before3.png">
-<img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/after3.png">
+<img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/before3.png"><img width="400" mheight="400" src="https://github.com/nagi12147/yomichan-rice/blob/main/screenshot/after3.png">
 
 ## Installation
 1. Go to Yomichan Settings > **Appearance** > **Configure custom CSS…** > Copy and Paste the **[Popup.css](https://github.com/nagi12147/yomichan-rice/blob/main/Popup.css)** content to Popup CSS
